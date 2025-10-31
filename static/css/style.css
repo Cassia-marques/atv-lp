@@ -1,0 +1,78 @@
+/* 🌊 Estilo Azul - Universidade do Sonic */
+
+/* Corpo da página */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e6f0ff;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tabela principal */
+table {
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(248, 248, 248, 0.3);
+}
+
+/* Cabeçalho */
+h2 {
+  color: #f8e21d;
+}
+
+/* Parágrafos */
+p, ul, li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Links do menu */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Formulário */
+form {
+  background-color: #f8e21d;
+  color: #163e6b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #163e6b;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #163e6b;
+  color: #f8e21d;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+  background-color: #1a6baf;
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+footer, h4 {
+  color: #f8e21d;
+  text-align: center;
+}
